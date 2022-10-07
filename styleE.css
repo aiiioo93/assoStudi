@@ -1,0 +1,84 @@
+/* GENERAL */
+
+body,
+html{
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      background: url(/img/lune.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+
+}
+
+
+/* PAGE */
+
+.intro{
+    padding: 0 35px;
+    font-size: 0.58rem;
+    text-align: center;
+}
+
+.titre{
+    padding-left: 2.5rem;
+    font-size: 2rem;
+    margin-top: 8rem;
+}
+
+#plus{
+    font-size: 2.5rem;
+}
+
+
+.date{
+    text-transform: uppercase;
+    padding-left: 2rem;
+}
+
+.lieu{
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.contact{
+    padding-left: 2rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .intro{
+        font-size: 1.5rem;
+
+    }
+    
+    .titre{
+        padding-left: 22rem;
+
+    }
+    
+    #plus{
+        font-size: 2.5rem;
+    }
+    
+    
+    .date{
+        text-transform: uppercase;
+        padding-left: 25rem;
+    }
+    
+    .lieu{
+        padding-left: 25rem;
+        text-transform: uppercase;
+    }
+    
+    .contact{
+        padding-left: 25rem;
+    }
+
+}
+
+

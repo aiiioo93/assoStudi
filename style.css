@@ -12,6 +12,12 @@ html{
       font-family: "Poppins", sans-serif;
 }
 
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
 /* NAV */
 
 nav{
@@ -70,10 +76,6 @@ nav{
     .hero h4{
         padding: 10rem 17rem;
     }
-
-    .hero button{
-        margin: 2rem;
-    }
 }
 
 
@@ -87,5 +89,6 @@ footer{
 
     footer{
         height: 8%;
+        font-size: 1.5rem;
     }
 }
